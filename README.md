@@ -92,18 +92,6 @@ Run:
 node apostle.js
 ```
 
-You should see something like:
-```
-🚀 APOSTLE Mailer started!
-📧 Ready to send campaigns!
-```
-
-For auto-reload while developing:
-```bash
-npm install -g nodemon
-nodemon apostle.js
-```
-
 ---
 
 ## ✉️ Example Email Template
