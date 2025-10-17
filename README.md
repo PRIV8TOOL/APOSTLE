@@ -28,7 +28,7 @@ That’s it! 🎉 You’re ready to start sending.
 - [✉️ Example Email Template](#-example-email-template)
 - [🧩 Placeholder Functions Reference](#-placeholder-functions-reference)
 - [⚙️ Configuration Settings Reference](#-configuration-settings-reference)
-- [❤️ Credits](#-credits)
+- [❤️ Credits](#-%EF%B8%8F-credits)
 
 ---
 
@@ -205,13 +205,13 @@ Each config variable is defined in your `.env` or config file.
 | | `SMTP_TIMEOUT` | How long to wait for SMTP server response `(in ms)`. | No |
 | | `TIMEZONE` | Timezone for date/time placeholders `(e.g., America/New_York)`. | No |
 | Recipients & Content | `MAILLIST_FILE` | File containing recipient emails (one per line). | No |
-| | `SUBJECT` | Subject line of the email `(supports placeholders)`. | `(Yes)` |
-| | `FROM_NAME` | Sender name `(can use placeholders or multiple values)`. | `(Yes)` |
-| | `LINK` | Main URL used in `[{link}]` and `[{qr}]`. | `(Yes)` |
-| Attachments | `ATTACH_PDF_FILENAME` | Generates a PDF attachment. | `(Yes)` |
-| | `ATTACH_SVG_FILENAME` | Generates an SVG attachment. | `(Yes)` |
-| | `ATTACH_DOCX_FILENAME` | Generates a DOCX attachment. | `(Yes)` |
-| | `ATTACH_RTF_FILENAME` | Generates an RTF attachment. | `(Yes)` |
+| | `SUBJECT` | Subject line of the email `(supports placeholders)`. | Yes |
+| | `FROM_NAME` | Sender name `(can use placeholders or multiple values)`. | Yes |
+| | `LINK` | Main URL used in `[{link}]` and `[{qr}]`. | Yes |
+| Attachments | `ATTACH_PDF_FILENAME` | Generates a PDF attachment. | Yes |
+| | `ATTACH_SVG_FILENAME` | Generates an SVG attachment. | Yes |
+| | `ATTACH_DOCX_FILENAME` | Generates a DOCX attachment. | Yes |
+| | `ATTACH_RTF_FILENAME` | Generates an RTF attachment. | Yes |
 | SMTP Settings | `SMTP_LIST_FILE` | Path to SMTP credentials file. | No |
 | | `SMTP_ROTATION_MODE` | Rotation mode: `(ROTATE/QUEUE/RANDOM)`. | No |
 | | `SMTP_QUEUE_LIMIT` | Number of emails per SMTP in queue mode. | No |
