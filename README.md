@@ -28,7 +28,7 @@ That’s it! 🎉 You’re ready to start sending.
 - [✉️ Example Email Template](#-example-email-template)
 - [🧩 Placeholder Functions Reference](#-placeholder-functions-reference)
 - [⚙️ Configuration Settings Reference](#-configuration-settings-reference)
-- [❤️ Credits](#-%EF%B8%8F-credits)
+- [❤️ Credits](#-credits)
 
 ---
 
