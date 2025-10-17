@@ -214,22 +214,22 @@ Each config variable is defined in your `.env` or config file.
 |-----------|----------|--------------|----------------|
 | License & General | `TOKEN` | Your Apostle Mailer license key. | No |
 | | `THREADS` | Number of concurrent email threads. | No |
-| | `SMTP_TIMEOUT` | How long to wait for SMTP server response `chalk.yellow(in ms)`. | No |
-| | `TIMEZONE` | Timezone for date/time placeholders `chalk.yellow(e.g., America/New_York)`. | No |
+| | `SMTP_TIMEOUT` | How long to wait for SMTP server response `(in ms)`. | No |
+| | `TIMEZONE` | Timezone for date/time placeholders `(e.g., America/New_York)`. | No |
 | Recipients & Content | `MAILLIST_FILE` | File containing recipient emails (one per line). | No |
-| | `SUBJECT` | Subject line of the email `chalk.yellow(supports placeholders)`. | `chalk.green(Yes)` |
-| | `FROM_NAME` | Sender name `chalk.yellow(can use placeholders or multiple values)`. | `chalk.green(Yes)` |
-| | `LINK` | Main URL used in `[{link}]` and `[{qr}]`. | `chalk.green(Yes)` |
-| Attachments | `ATTACH_PDF_FILENAME` | Generates a PDF attachment. | `chalk.green(Yes)` |
-| | `ATTACH_SVG_FILENAME` | Generates an SVG attachment. | `chalk.green(Yes)` |
-| | `ATTACH_DOCX_FILENAME` | Generates a DOCX attachment. | `chalk.green(Yes)` |
-| | `ATTACH_RTF_FILENAME` | Generates an RTF attachment. | `chalk.green(Yes)` |
+| | `SUBJECT` | Subject line of the email `(supports placeholders)`. | `(Yes)` |
+| | `FROM_NAME` | Sender name `(can use placeholders or multiple values)`. | `(Yes)` |
+| | `LINK` | Main URL used in `[{link}]` and `[{qr}]`. | `(Yes)` |
+| Attachments | `ATTACH_PDF_FILENAME` | Generates a PDF attachment. | `(Yes)` |
+| | `ATTACH_SVG_FILENAME` | Generates an SVG attachment. | `(Yes)` |
+| | `ATTACH_DOCX_FILENAME` | Generates a DOCX attachment. | `(Yes)` |
+| | `ATTACH_RTF_FILENAME` | Generates an RTF attachment. | `(Yes)` |
 | SMTP Settings | `SMTP_LIST_FILE` | Path to SMTP credentials file. | No |
-| | `SMTP_ROTATION_MODE` | Rotation mode: `chalk.yellow(ROTATE/QUEUE/RANDOM)`. | No |
+| | `SMTP_ROTATION_MODE` | Rotation mode: `(ROTATE/QUEUE/RANDOM)`. | No |
 | | `SMTP_QUEUE_LIMIT` | Number of emails per SMTP in queue mode. | No |
 | | `SMTP_POOL_ENABLED` | Enables SMTP connection pooling. | No |
 | Logo & QR | `USE_MICROSOFT_LOGO` | If true, uses Microsoft logo. | No |
-| | `ULOGO_MODE` | Embedding mode `chalk.yellow(cid/base64)`. | No |
+| | `ULOGO_MODE` | Embedding mode `(cid/base64)`. | No |
 | | `QR_MODE` | QR embedding mode. | No |
 | Testing | `TEST_EMAIL` | Email to receive test messages. | No |
 | | `TELEGRAM_BOT_TOKEN` | Token for Telegram tracking bot. | No |
