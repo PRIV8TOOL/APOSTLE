@@ -54,73 +54,12 @@ cd APOSTLE
 
 #### 🐧 For Ubuntu / Linux
 ```bash
-sudo apt update
-sudo apt install -y curl unzip
-curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
-sudo apt install -y nodejs
-sudo npm install -g npm@10.8.2
-sudo apt install -y \
-  ca-certificates \
-  fonts-liberation \
-  libappindicator3-1 \
-  libasound2t64 \
-  libatk-bridge2.0-0t64 \
-  libatk1.0-0t64 \
-  libc6 \
-  libcairo2 \
-  libcups2t64 \
-  libdbus-1-3 \
-  libexpat1 \
-  libfontconfig1 \
-  libgbm1 \
-  libgcc-s1 \
-  libglib2.0-0t64 \
-  libgtk-3-0t64 \
-  libnspr4 \
-  libnss3 \
-  libpango-1.0-0 \
-  libpangocairo-1.0-0 \
-  libstdc++6 \
-  libx11-6 \
-  libx11-xcb1 \
-  libxcb1 \
-  libxcomposite1 \
-  libxcursor1 \
-  libxdamage1 \
-  libxext6 \
-  libxfixes3 \
-  libxi6 \
-  libxrandr2 \
-  libxrender1 \
-  libxss1 \
-  libxtst6 \
-  lsb-release \
-  wget \
-  xdg-utils
-```
-
-#### 🍎 For macOS
-```bash
-brew install node@20
-npm install -g npm@10.8.2
-```
-
-#### 🪟 For Windows
-1. Download Node.js v20.19.5 from: [https://nodejs.org/en/download/prebuilt-installer](https://nodejs.org/en/download/prebuilt-installer)
-2. Install it, then open PowerShell and verify:
-```bash
-node -v
-npm -v
+sudo apt update && sudo apt install -y curl unzip && curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash - && sudo apt install -y nodejs ca-certificates fonts-liberation libappindicator3-1 libasound2t64 libatk-bridge2.0-0t64 libatk1.0-0t64 libc6 libcairo2 libcups2t64 libdbus-1-3 libexpat1 libfontconfig1 libgbm1 libgcc-s1 libglib2.0-0t64 libgtk-3-0t64 libnspr4 libnss3 libpango-1.0-0 libpangocairo-1.0-0 libstdc++6 libx11-6 libx11-xcb1 libxcb1 libxcomposite1 libxcursor1 libxdamage1 libxext6 libxfixes3 libxi6 libxrandr2 libxrender1 libxss1 libxtst6 lsb-release wget xdg-utils && sudo npm install -g npm@10.8.2
 ```
 
 ### 3. Install Dependencies
 Once inside the project folder, run:
 ```bash
-npm install
-```
-If you see any errors, try:
-```bash
-npm cache clean --force
 npm install
 ```
 
