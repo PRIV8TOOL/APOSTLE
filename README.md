@@ -5,33 +5,6 @@ This guide helps you **install, configure, and use** APOSTLE from start to finis
 
 ---
 
-## ⚡ Quick Start
-
-If you just want to get started right away:
-
-1️⃣ **Extract** the ZIP file you downloaded  
-2️⃣ **Open Terminal / CMD** and go inside the project folder  
-3️⃣ **Install Node.js v20.19.5** and **npm v10.8.2**  
-4️⃣ Run:
-```bash
-npm install
-node apostle.js
-```
-
-That’s it! 🎉 You’re ready to start sending.
-
----
-
-## 📚 Table of Contents
-- [🧭 Introduction](#-introduction)
-- [🪜 Installation Guide](#-installation-guide)
-- [✉️ Example Email Template](#-example-email-template)
-- [🧩 Placeholder Functions Reference](#-placeholder-functions-reference)
-- [⚙️ Configuration Settings Reference](#-configuration-settings-reference)
-- [❤️ Credits](#-credits)
-
----
-
 ## 🧭 Introduction
 
 **APOSTLE Mailer** is designed for easy, flexible, and secure bulk email sending.  
